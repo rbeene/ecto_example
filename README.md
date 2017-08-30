@@ -1,19 +1,16 @@
-# Example
+# Ecto with Composable Queries
 
-To start your Phoenix server:
+This application follows the blog article that discusses composable queries with Ecto. With this repo, you can follow along by checking out branch https://github.com/rbeene/ecto_example/tree/10-with-authentication. 
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Start Phoenix endpoint with `mix phx.server`
+This branch contains a typical Phoenix 1.3 setup with a number of tables and seeds. 
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+### Instructions
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+  * checkout the branch `10-with-authentication`
+  * `mix ecto.reset`
+  * (optionally) load the Postman collection to test
+  * `mix phx.server`
 
-## Learn more
+### Users
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+Each user uses the password `test1234` but should have different levels of access based on role. The purpose of this repo is show a working example and give developers the opportunity to develop a solution alongside the blog article.
