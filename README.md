@@ -14,3 +14,7 @@ This branch contains a typical Phoenix 1.3 setup with a number of tables and see
 ### Users
 
 Each user uses the password `test1234` but should have different levels of access based on role. The purpose of this repo is show a working example and give developers the opportunity to develop a solution alongside the blog article.
+
+### Completed Example
+
+Please checkout branch 20-with-filtering-by-role-and-params for the complete example. 
