@@ -10,7 +10,7 @@ defmodule ExampleWeb.UserController do
 
   action_fallback ExampleWeb.FallbackController
 
-  def index(conn, params) do
+  def index(conn, _params) do
     users = Account.list_users()
     render(conn, "index.json", users: users)
   end
