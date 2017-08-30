@@ -117,10 +117,6 @@ defmodule Example.Account do
     Repo.all(User)
   end
 
-  def list_users(user, params) do
-    User.list_users(user, user.role, params)
-  end
-
   @doc """
   Gets a single user.
 
