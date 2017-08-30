@@ -1,6 +1,6 @@
 # Ecto with Composable Queries
 
-This application follows the blog article that discusses composable queries with Ecto. With this repo, you can follow along by checking out branch https://github.com/rbeene/ecto_example/tree/10-with-authentication. 
+This application follows the blog article that discusses composable queries with Ecto. With this repo, you can follow along by checking out branch [10-with-authentication](https://github.com/rbeene/ecto_example/tree/10-with-authentication). 
 
 This branch contains a typical Phoenix 1.3 setup with a number of tables and seeds. 
 
@@ -17,4 +17,4 @@ Each user uses the password `test1234` but should have different levels of acces
 
 ### Completed Example
 
-Please checkout branch 20-with-filtering-by-role-and-params for the complete example. 
+Please checkout branch [20-with-filtering-by-role-and-params](https://github.com/rbeene/ecto_example/tree/20-with-filtering-by-role-and-params) for the complete example.
