@@ -42,7 +42,7 @@ defmodule Example.Mixfile do
       {:comeonin, "~> 4.0"},
       {:bcrypt_elixir, "~> 0.12.0"},
       {:guardian, "~> 0.14"},
-      {:ex_machina, git: "https://github.com/rbeene/ex_machina"},
+      {:ex_machina, git: "https://github.com/thoughtbot/ex_machina"},
       {:faker, "~> 0.8"}
     ]
   end
