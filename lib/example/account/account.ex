@@ -119,6 +119,7 @@ defmodule Example.Account do
 
   def list_users(user, params) do
     User.list_users(user, user.role, params)
+    |> Repo.all()
   end
 
   @doc """
