@@ -47,7 +47,7 @@ defmodule Example.Account.User do
   def list_users(user, _role, params) do
     User
     |> where([u], u.id == ^user.id)
-    |> filter_by_params(params |> Enum.to_list())
+    |> filter_by_params(params |> Map.to_list())
   end
 
   def filter_by_params(query, params) do
