@@ -1,4 +1,3 @@
-require IEx
 defmodule Example.GuardianSerializer do
   @behaviour Guardian.Serializer
 
