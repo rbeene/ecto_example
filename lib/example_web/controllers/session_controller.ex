@@ -22,8 +22,7 @@ defmodule ExampleWeb.SessionController do
     end
   end
 
-  def create(conn, params) do
-    require IEx;IEx.pry
+  def create(conn, _params) do
     conn
     |> put_status(400)
     |> render("bad_request.json", %{})
