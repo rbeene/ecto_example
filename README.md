@@ -18,3 +18,5 @@ Each user uses the password `test1234` but should have different levels of acces
 ### Completed Example
 
 Please checkout branch [20-with-filtering-by-role-and-params](https://github.com/rbeene/ecto_example/tree/20-with-filtering-by-role-and-params) for the complete example.
+
+To review our refactor from part 2, checkout the [30-refactor-2](https://github.com/rbeene/ecto_example/tree/30-refactor-2) branch. 
